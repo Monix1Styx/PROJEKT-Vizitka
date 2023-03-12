@@ -13,4 +13,68 @@ tlačítko Twitter aktivní:	 #0b7bc1
 tlačítko Facebook:				 #3b5998
 tlačítko Facebook aktivní: #2b406e
 */
+/*
+font-family: 'Nunito', sans-serif;
+c
+font-family: 'Raleway', sans-serif;
+*/
+h1 {
+color: #d63031;
+font-size: 36px;
+font-weight: bolder;
+font-family: 'Nunito', sans-serif;
+
+}
+.text {
+    text-align: justify;
+    font-family: 'Nunito', sans-serif;
+    font-size: 18px;
+    }
+
+.box {
+    border-radius: 10px;
+    background-color: white ;
+    width: 550px;
+    padding: 30px;
+    margin: auto;
+    margin-top: 150px;
+    position: relative;
+    z-index: -1;
+ }
+ 
+img {
+    width: 150px;
+    height: 150px;
+    border: 2px solid white;
+    border-radius: 100px;
+    position: absolute;
+    right: 600px;
+    top: 88px;
+}
+
+/*  nepodařilo se mi zafixovat tu fotku k rohu, nevím proč, jen jsem našla to překrývání, protože jsem ji měla pod bílým rámečkem*/
+.body {
+   background-color: #b2bec3; 
+}
+.button {
+    border-radius: 5px;
+    font-family: 'Raleway', sans-serif;
+    padding: 9px;
+    margin-bottom: 5px;
+    text-align: center;
+    }
+
+.facebook {
+background-color: #3b5998;
+
+}
+.twitter {
+    background-color: #1da1f2;
+}
+
+.odkaz {
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+}
 
