@@ -19,7 +19,7 @@ c
 font-family: 'Raleway', sans-serif;
 */
 h1 {
-color: violet;
+color: #d63031;
 font-size: 36px;
 font-weight: bolder;
 font-family: 'Nunito', sans-serif;
@@ -38,8 +38,8 @@ font-family: 'Nunito', sans-serif;
     padding: 30px;
     margin: auto;
     margin-top: 150px;
-    
     z-index: -1;
+    box-shadow: 3px 3px 10px black;
  }
  
 img {
